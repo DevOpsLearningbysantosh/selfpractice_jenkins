@@ -22,8 +22,6 @@ pipeline {
             steps {
                 sh 'node --version'
                 sh 'npm install' // Install front-end dependencies
-                sh 'npm run build' // Build your front-end application
-                sh 'npm start' // Run your front-end application
             }
         }
         
