@@ -10,8 +10,6 @@ pipeline {
             }
             steps {
                 sh 'mvn --version'
-                sh 'mvn clean install' // Build your back-end application
-                sh 'java -jar target/backend.jar' // Run your back-end application
             }
         }
         
