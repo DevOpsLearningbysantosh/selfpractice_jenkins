@@ -21,7 +21,6 @@ pipeline {
             }
             steps {
                 sh 'node --version'
-                sh 'npm install' // Install front-end dependencies
             }
         }
         
